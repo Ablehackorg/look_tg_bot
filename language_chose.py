@@ -1,0 +1,45 @@
+def language_dict():
+    language_dict1={"O'zbekcha":{'greeting':{'buttons':'Telefon raqam jonatish','hello':f"Assalomu aleykum,  Botimizga xush kelibsiz! \n Ro'yxatdan o'tish uchun telefon raqamingizni kiriting. \n Raqamni +998********* shaklida yuboring.."},
+                               'send_code':{'answer':"Tasdiqlash kodi:"},
+                                'check_code':{'answer':{1:"To'g'ri",2:"Noto'gri yana urinib ko'ring"}} ,
+                                'main_menu':{'buttons':{'order':'Buyurtma berish',
+                                                        'settings':'Sozlamalar',
+                                                        'my_orders':'Mening buyurtmalarim',
+                                                        'about_us':'Biz haqimizda',
+                                                        'feedback':'Izoh qoldirish'},'answer':"Buyurtma berishni boshlash uchun  Buyurtma berish tugmasini bosing \n Shuningdek, aksiyalarni ko'rishingiz va bizning filiallar bilan tanishishingiz mumkin"},
+                                'order':{'buttons':{'take_away':'Olib ketish','delivery':'Yetkazib berish'},'answer':'Yetkazib berish turini tanlang'},
+                                'back':"Orqaga" ,
+                                'save':'Savat',
+                                'aboutus':"Bizni Look retaranimiz telegram botiga xush kelibsiz \n Bizni botimizda siz taom zakaz qilishingiz ,aksiyalardan habardor bo'lishingiz mumkin yoki \n bizning filiallar ko'tishingiz mumkin",
+                                'get_out':{'answer':'Filialni tanlang'},
+                                'check_get':'Qayta yuboring',
+                                'ask_location':{'buttons':'Lokatsiya yuborish','answer':'Buyurtmani davom ettirish uchun iltimos lokatsiyangizni yuboring'},
+                                'address':{'buttons':{'resend':'Qayta yuborish','ok':'Tasdiqlash','save':'Saqlab qoyish'}},
+                                'category_menu':"Kategoriya tanlang",
+                                'check_category':'Mahsulotni tanlang',
+                                'add_save':'Savatga qoshish'
+                                },
+
+
+          "Русский":{'greeting':{'buttons':'Отправить номер телефона','hello':f"Ассаляму алейкум, добро пожаловать в наш бот! \n Введите свой номер телефона для регистрации. \n Отправьте номер в формате +998******..."},
+                    'send_code':{'answer':"Код подтверждения:"},
+                    'check_code':{'answer':{1:"Правильно",2:"Неверно, попробуйте еще раз."}},
+                    'main_menu':{'buttons':{'order':'Заказать',
+                                                        'settings':'Настройки',
+                                                        'my_orders':'Мои заказы',
+                                                        'about_us':'О нас',
+                                                        'feedback':'Оставить комментарий'},'answer':"Нажмите кнопку «Заказать», чтобы начать оформление заказа. \n Вы также можете просмотреть акции и узнать о наших филиалах."}, 
+                    'order':{'buttons':{'take_away':'Забрать','delivery':'Доставка'},'answer':'Выберите тип доставки'},
+                    'back':"Назад",
+                    'save':'Корзина',
+                    'aboutus':"Добро пожаловать в наш ресторанный телеграм-бот Look \n В нашем боте вы можете заказать еду, узнать об акциях или \n посетить наши филиалы",
+                    'get_out':{'answer':'Выберите филиал'},
+                    'check_get':'Пожалуйста, отправьте повторно',
+                    'ask_location':{'buttons':'Отправить местоположение','answer':'Пожалуйста, отправьте свое местоположение для продолжения оформления заказа.'},
+                    'address':{'buttons':{'resend':'Отправить повторно','ok':'Подтверждение','save':'Сохранять'}},
+                    'category_menu':"Выберите категорию",
+                    'check_category':'Выберите продукт',
+                    'add_save':'Добавить в корзину'
+                    }}
+    return language_dict1
+
